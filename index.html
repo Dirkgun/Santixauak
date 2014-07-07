@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Santiagos 2014</title>
+<!--
+    This template can be used for simple app with left side menu that can be opened to switch views, for applications like Youtube App or Gmail app.
+-->  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0;" />
+    
+    <link rel="stylesheet" type="text/css" href="appframework/af.ui.css" />
+    <link rel="stylesheet" type="text/css" href="appframework/icons.css" />
+    <script type="text/javascript" charset="utf-8" src="appframework/appframework.ui.min.js"></script>
+    <!--AppFramework plugin for sliding side menu-->
+    <script type="text/javascript" charset="utf-8" src="appframework/plugins/af.slidemenu.js"></script>
+
+<!-- Required if packaging to native app using Intel XDK -->    
+    <script src="intelxdk.js"></script>
+    <script src="xhr.js"></script>
+    <script>    
+        function onDeviceReady(){ 
+            $.ui.launch();
+            intel.xdk.device.hideSplashScreen();
+        }
+        document.addEventListener("intel.xdk.device.ready", onDeviceReady, false);
+    </script>
+<!-- end Intel XDK code -->
+    
+    <script>   
+        $.ui.autoLaunch = false;
+        $.ui.animateHeaders = false;
+                
+        $(document).ready(function(){
+            $.ui.setSideMenuWidth('180px');
+            $.ui.launch();
+        });
+    </script>
+</head>
+<body> 
+<div id="afui">
+    
+    <!--Left Side Menu Navigation bar -->
+    <nav>
+        <ul class="list">
+            
+                        <li><a href="#page1" style="font-weight:bold; float: center; font-size: 13pt; margin-left: -12px;">Santiagos 2014</a></li>
+                        <li><a href="#page2"><div class="dia">14</div>Lunes</a></li>
+                        <li><a href="#page3"><div class="dia">15</div>Martes</a></li>
+                        <li><a href="#page4"><div class="dia">16</div>Miércoles</a></li>
+                        <li><a href="#page5"><div class="dia">17</div>Jueves</a></li>
+                        <li><a href="#page6"><div class="dia">18</div>Viernes</a></li>
+                        <li><a href="#page7"><div class="dia">19</div>Sábado</a></li>
+                        <li><a href="#page8"><div class="dia">20</div>Domingo</a></li>
+                        <li><a href="#page9"><div class="dia">21</div>Lunes</a></li>
+                        <li><a href="#page10"><div class="dia">22</div>Martes</a></li>
+                        <li><a href="#page11"><div class="dia">23</div>Miércoles</a></li>
+                        <li><a href="#page12"><div class="dia" style="background-color: #FF7070">24</div>Jueves</a></li>
+                        <li><a href="#page13"><div class="dia" style="background-color: #FF7070">25</div>Viernes</a></li>
+                        <li><a href="#page14"><div class="dia" style="background-color: #FF7070">26</div>Sábado</a></li>
+                        <li><a href="#page15"><div class="dia" style="background-color: #FF7070">27</div>Domingo</a></li>
+                </ul>
+    </nav>
+    
+    <div id="content" style=""> 
+        
+    <!--Main View Pages-->
+        <!---->
+        <div class="panel" title="Santiagos 2014" id="page1" data-footer="none" selected="true">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Programa de fiestas</h1>
+                
+            </header>
+                        
+                        <div align="center">
+                            <p><img src="/img/santiagos.jpg" alt="Santiagos 2014" onclick='$.ui.toggleSideMenu()'></img></p>
+                        </div>
+                        
+                        
+                
+                </div>
+        
+        <div class="panel" title="Dia 14" id="page2" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Lunes 14</h1>
+            </header>
+            <content>
+                <div align=center>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Exposición de pintura</div>
+                                <div class="subtitulo"><div class="horario">18:00</div><div class="ubicacion">Lobiano Cultur Gunea</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Exposición de pintura del artista senegalés Ismaila Coly, hasta el día 20</div></div>
+                        </article>      
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Juegos de Txarangas</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Comienzan los juegos de txarangas con las pruebas de mazorcas y pepino, organizados por la Comisión de Txaranga</div></div>
+                       </article>         
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concierto</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Marqués de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Concierto a cargo del grupo Versionarios, que interpretarán versiones de pop-rock en acústico</div></div>
+                       </article>         
+                </div>
+            </content>
+                                
+        </div>
+        
+        <div class="panel" title="Dia 15" id="page3" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Martes 15</h1>
+            </header>
+            <content>
+                <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Juegos de Txarangas</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Continúan los juegos con las pruebas de soka-tira y pringue</div></div>
+                        </article>        
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Espectáculo de teatro</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Marqués de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Obra "Erdaldun berrien kluba" a cargo de Olatz Pagaldai, organizado por Euskal Birusa</div></div>
+                        </article>         
+                </div>
+            </content>
+            
+        </div>
+                
+        
+        <div class="panel" title="Dia 16" id="page4" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Miércoles 16</h1>
+            </header>
+            <content>
+                <div align=center>
+                                
+                                <div class="divisor"></div>
+                           <article>    
+                                <div class="titulo">Juegos de Txarangas</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Continúan los juegos con las pruebas de triatlon y pecado original</div></div>
+                           </article>      
+                                <div class="divisor"></div>
+                           <article>
+                                <div class="titulo">Festival de Bertsolaris</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Marqués de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Organizado por Deba-beheko Bertso Eskola, con la participación de Nerea Ibarzabal, Malen Amenabar, Beñat Ugartetxea, Manu Goiogana, Josu Oiartzabal y Eneko Lazkoz</div></div>
+                           </article>      
+                </div>
+            </content>
+                        
+        </div>
+                
+                
+            <div class="panel" title="Dia 17" id="page5" data-footer="none">
+                <header>
+                    <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                    <h1>Jueves 17</h1>
+                </header>
+                <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Campeonato de Futbito</div>
+                                <div class="subtitulo"><div class="horario">18:00</div><div class="ubicacion">Polideportivo municipal</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Comienzo del campeonato, organizado por el colectivo Saltzaileak</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Juegos de Txarangas</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Últimos juegos con la final de soka-tira y la prueba de cubos</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concierto</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Marqués de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Concierto de MUSERGO organizado por Euskal Birusa</div></div>
+                        </article>
+                                
+                    </div>
+                </content>
+            </div>
+                
+                
+            <div class="panel" title="Dia 18" id="page6" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Viernes 18</h1>
+            </header>
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Campeonato de Futbito</div>
+                                <div class="subtitulo"><div class="horario">18:00</div><div class="ubicacion">Polideportivo municipal</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Continúa el campeonato de futbito</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Finales de campeonato de Paleta</div>
+                                <div class="subtitulo"><div class="horario">18:00</div><div class="ubicacion">Frontón Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Final del campeonato, organizado por el club de Paleta. (En caso de lluvia, esta actividad tendrá lugar en el Frontón Aritzmendi)</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Play-Back</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Tradicional concurso de Play-Back, organizado por la Comisión de Txarangas</div></div>
+                        </article>
+                                
+                    </div>
+            </content>  
+            </div>
+                
+                
+        <div class="panel" title="Dia 19" id="page7" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Sábado 19</h1>
+            </header>
+            
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Campeonato de futbito</div>
+                                <div class="subtitulo"><div class="horario">09:00</div><div class="ubicacion">Polideportivo municipal</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Continúa el campeonato de futbito</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Subida a Urko</div>
+                                <div class="subtitulo"><div class="horario">10:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Salida de la VI. subida controlada Urko 69tan ezetz!, organizada por Artarrai Mendiko Taldea</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Tiro con arco</div>
+                                <div class="subtitulo"><div class="horario">10:00</div><div class="ubicacion">Frontón Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Prueba de tiro con arco de libre participación, organizada por el club de tiro con arco Betiondo</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Juegos de rol</div>
+                                <div class="subtitulo"><div class="horario">11:00</div><div class="ubicacion">Lobiano Kultur Gunea</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Jornada de juegos de rol y estrategia, organizada por el colectivo Draconia</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Open Rallyslot</div>
+                                <div class="subtitulo"><div class="horario">11:00</div><div class="ubicacion">Avda. de Gipuzkoa nº 10</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Inicio del III. Open Rallyslot Villa de Ermua en homenaje a David Genicio, organizado por el Club Slot de Ermua</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Torneo ajedrez</div>
+                                <div class="subtitulo"><div class="horario">11:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">XVI. torneo de partidas rapidas de ajedrez de libre participación, organizado por Ermutarrak Xake taldea</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Campeonato de Mús</div>
+                                <div class="subtitulo"><div class="horario">16:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">XII. campeonato popular de Mus, organizado por el colectivo Afaltzaindia</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Carrera ciclista</div>
+                                <div class="subtitulo"><div class="horario">17:00</div><div class="ubicacion">Poligono Hambre</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Carrera para chicos y chicas de categoría benjamín, alevín e infantil a nivel nacional, organizada por Ermuko Txirrindulari Elkartea</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Alarde de Danzas</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Alarde de danzas a cargo del grupo Txindurri</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concierto Seguridad Social</div>
+                                <div class="subtitulo"><div class="horario">23:30</div><div class="ubicacion">Plaza San Pelayo</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Concierto del grupo Seguridad Social</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                                
+                                
+                    </div>
+            </content>  
+            
+        </div>
+                
+                
+        <div class="panel" title="Dia 20" id="page8" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Domingo 20</h1>
+            </header>
+            
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concurso de perro de muestra</div>
+                                <div class="subtitulo"><div class="horario">08:00</div><div class="ubicacion">Campa San Pedro (Mallabia)</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Organizado por la sociedad de caza y pesca La verdad</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Campeonato de futbito</div>
+                                <div class="subtitulo"><div class="horario">09:00</div><div class="ubicacion">Polideportivo Municipal</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Inicio de la fase final del campeonato</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Marcha de Mountain-Bike</div>
+                                <div class="subtitulo"><div class="horario">09:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">XIX. Marcha popular de Mountain Bike Organizada por Urko Mendiko Txirrindulariak</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Juegos de mesa</div>
+                                <div class="subtitulo"><div class="horario">10:00</div><div class="ubicacion">Plaza San Mart��n</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">XII. Torneo de Blood-Bowl juego de mesa, organizado por el colectivo Draconia</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Partidas de ajedrez</div>
+                                <div class="subtitulo"><div class="horario">10:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Exhibicion de partidas simutaneas a cargo del Maestro Internacional I��igo Argando��a, organizada por Ermutarrak Xake Taldea</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Trofeo de Automodelismo</div>
+                                <div class="subtitulo"><div class="horario">10:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">XVII. Trofeo Villa de Ermua de Automodelismo, organizado por el Club Eztanda.</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Festival musica y danza</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Los Centros Culturales ofrecen un festival de musica y danza con motivo del D��a de las Regiones contando con los grupos: Gorets de Osetia del Norte y Tierra y Cosecha, de Costa Rica.</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Campeonato de futbito</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Polideportivo Municipal</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Final del campeonato de futbito</div></div>
+                        </article>       
+                                 <div class="divisor"></div>
+                                                                
+                    </div>
+                </content>
+            </div>
+            
+            <div class="panel" title="Dia 21" id="page9" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Lunes 21</h1>
+            </header>
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Proyección documental</div>
+                                <div class="subtitulo"><div class="horario">17:00</div><div class="ubicacion">Lobiano Kultur Gunea</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Proyección del documental de fiestas con perspectiva de género “Festa dezagun gaurdanik geroa”, organizado por la Plataforma por los buenos tratos</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Photocall</div>
+                                <div class="subtitulo"><div class="horario">18:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Photocall por los buenos tratos en fiestas, organizado por Plataforma por los buenos tratos</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concierto Betty Soul</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Marqués de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Concierto soul a cargo del grupo Betty Soul, organizado por Komite Internazionalistak</div></div>
+                        </article>
+                                
+                    </div>
+            </content>  
+            </div>
+            
+            <div class="panel" title="Dia 22" id="page10" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Martes 22</h1>
+            </header>
+            
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Bocadillada Popular</div>
+                                <div class="subtitulo"><div class="horario">21:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Con reparto de bocadillos y bebidas a precio simb��lico, organizado por la Comisi��n de Txarangas</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Canciones de Txarangas</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">CONCURSO DE CANCIONES DE TXARANGAS, organizado por la Comisi��n de Txarangas. Fuera de concurso, intervendr�� la Txaranga Irulitxa</div></div>
+                        </article>       
+                               
+                                <div class="divisor"></div>
+                        
+                                                                 
+                                                                 
+                                                                
+                                                                
+                    </div>
+                </content>
+            </div>
+            
+            
+            
+            
+            <div class="panel" title="Dia 23" id="page11" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Miércoles 23 - Dia del Ni��o</h1>
+            </header>
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Cabezudos</div>
+                                <div class="subtitulo"><div class="horario">10:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Diversion para los mas peque��os a cargo de los cabezudos</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque infantil y talleres</div>
+                                <div class="subtitulo"><div class="horario">11 a 13</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil acompa��ado de talleres organizados por la Comisi��n de Txarangas. (En caso de lluvia, esta actividad tendr�� lugar en el Front��n Aritzmendi)</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Chocolatada infantil</div>
+                                <div class="subtitulo"><div class="horario">17:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">La Comision de Txarangas invitara a una chocolatada, con el patrocinio de Supermercados BM</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque infantil y talleres</div>
+                                <div class="subtitulo"><div class="horario">16 a 19</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil acompa��ado de talleres organizados por la Comisi��n de Txarangas. (En caso de lluvia, esta actividad tendr�� lugar en el Front��n Aritzmendi)</div></div>
+                        </article>  
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Expectaculo musical infantil</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">���Kanpanolue��� 11 salto gehiago!��� a cargo del grupo Eidabe</div></div>
+                        </article>  
+                            
+                                <div class="divisor"></div>
+                    </div>
+            </content>  
+            </div>
+            
+            <div class="panel" title="Dia 24" id="page12" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Jueves 24</h1>
+            </header>
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Reparto obsequio festivo</div>
+                                <div class="subtitulo"><div class="horario">17:00</div><div class="ubicacion">Plazoleta del Patxi</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Reparto a cargo del Servicio Municipal de Prevenci��n de Drogodependencias</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Presentacion de Txarangas</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Presentacion que contar�� con la animaci��n de la Txaranga ���Irulitxa���, Continúando con el tradicional DESFILE por diversas calles de la localidad</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Festival de musica electronica</div>
+                                <div class="subtitulo"><div class="horario">22:00</div><div class="ubicacion">Marqués de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">La Comision de Txarangas invitara a una chocolatada, con el patrocinio de Supermercados BM</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque infantil y talleres</div>
+                                <div class="subtitulo"><div class="horario">16 - 19</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Organizado por Beti-Txarto, contando con la participacion de 
+                                <div style="vertical-align: middle;"<div class="izquierda">C��sar Almena (Fabrik Madrid)</div>
+                                <div class="derecha">Asier & Araujo</div>
+                                <div class="izquierda">Alexander M.</div>
+                                <div class="derecha">Fey</div>
+                                <div class="izquierda">Javiersky</div>
+                                <div class="derecha">Sebita</div>
+                                </div></div>
+                        </article>  
+                            
+                                <div class="divisor"></div>
+                    </div>
+            </content>  
+            </div>
+            			
+			
+			
+            <div class="panel" title="Dia 25" id="page13" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Viernes 25</h1>
+            </header>
+            
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Gaupasa</div>
+                                <div class="subtitulo"><div class="horario">4 a 6</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Gaupasa con la orquesta Esmeralda</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Chocolatada</div>
+                                <div class="subtitulo"><div class="horario">07:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Gran chocolatada organizada por el Centro Cultural de Castilla-León</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+						<article>       
+                                <div class="titulo">Prueba de Barrus</div>
+                                <div class="subtitulo"><div class="horario">07:30</div><div class="ubicacion">Frontón de Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Prueba de barrus organizada por la Comisión de Txarangas, con la colaboración del bar Zabal</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">1ª Sokamuturra</div>
+                                <div class="subtitulo"><div class="horario">08:00</div><div class="ubicacion">Patio de Ongarai Eskola</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">1ª SOKAMUTURRA</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque Infantil</div>
+                                <div class="subtitulo"><div class="horario">12 a 14</div><div class="ubicacion">Plaza San Martín</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil para los más pequeños</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Misa solemne</div>
+                                <div class="subtitulo"><div class="horario">12:30</div><div class="ubicacion">Iglesia Santiago Apóstol</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Misa solemne en honor al Patrón</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Pasacalles</div>
+                                <div class="subtitulo"><div class="horario">12:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Pasacalles a cargo de la fanfarria Ustekabe</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Deporte Rural</div>
+                                <div class="subtitulo"><div class="horario">12:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Exhibición de deporte rural, que contará con:
+								<p>Harrijasotsaile: Inaxio Perurena , Jon Gisasola y Haritz Etxebarria</p>
+								<p>Aizkolaris: Jesús Gisasola , Bihurri II, Hodei Ezpeleta y Ioritz Gisasola</p></div></div>
+                        </article>                                              
+                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Trofeo Bolo Palma</div>
+                                <div class="subtitulo"><div class="horario">16:00</div><div class="ubicacion">Bolera San Pelayo</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Trofeo Santiagos 2014 Bolo Palma entre la Peña Bolística Montañesa de Ermua y el club de bolos de Beranga (Cantabria), organizado por Peña Bolística Montañesa</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Pelotamano categoría profesional</div>
+                                <div class="subtitulo"><div class="horario">17:00</div><div class="ubicacion">Frontón Aritzmendi</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Partidos de pelotamano de categoría profesional, siendo organizado por el Club de Pelota y enfrentando a:
+								<p>Mendizabal III- Larrinaga contra Jaka- Merino I</p>
+								<p>Mtnez. de Irujo – Tolosa contra Titín III – Zabaleta</p></div></div>
+                        </article> 
+								<div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque Infantil</div>
+                                <div class="subtitulo"><div class="horario">17 a 20</div><div class="ubicacion">Plaza San Martín</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil para los mas pequeños</div></div>
+                        </article>  
+								<div class="divisor"></div>
+                         <article>      
+                                <div class="titulo">Pasacalles de cabezudos</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Pasacalles de gigantes y cabezudos a cargo de la comparsa Ondalan</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Larraindantza</div>
+                                <div class="subtitulo"><div class="horario">20:00</div><div class="ubicacion">Plaza Cardenal orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Larraindantza de libre participación</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Brindis a favor del Euskera</div>
+                                <div class="subtitulo"><div class="horario">20:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Brindis de compromiso a favor del Euskera organizado por el colectivo Afaltzaindia</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                                                                 <article>      
+                                <div class="titulo">Conciertos</div>
+                                <div class="subtitulo"><div class="horario">22:00</div><div class="ubicacion">Parque Marqués de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Festival Rock y música electrónica organizado por Beti Txarto con la participación de:
+- Red Blaze 
+– Javierski
+- Damudot 
+– Alexander M
+- Sei Urte
+</div></div>
+                        </article> 
+								<div class="divisor"></div>
+						<article>      
+                                <div class="titulo">Espectáculo de calle</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Plaza San Pelayo</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Espectáculo de calle "Trampoline Misión 3" a cargo la compañía belga Circulation locale</div></div>
+                        </article> 
+                                <div class="divisor"></div>
+                        <article>      
+                                <div class="titulo">Verbena</div>
+                                <div class="subtitulo"><div class="horario">23:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Verbena con la orquesta Golden</div></div>
+                        </article> 
+                                <div class="divisor"></div>                                                                                                                                                                                              
+                                                                
+                    </div>
+                </content>
+            </div>
+			
+			
+            <div class="panel" title="Dia 26" id="page14" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Sábado 26</h1>
+            </header>
+            
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Gran Chocolatada</div>
+                                <div class="subtitulo"><div class="horario">07:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">GRAN CHOCOLATADA, organizada por el Centro Cultural Castilla-Le��n</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Prueba de Barrus</div>
+                                <div class="subtitulo"><div class="horario">07:30</div><div class="ubicacion">Front��n de Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">La prueba de Barrus mas mitica a cargo de los gaupaseros</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Sokamuturra</div>
+                                <div class="subtitulo"><div class="horario">08:00</div><div class="ubicacion">Patio de Ongarai Eskola</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">2�� SOKAMUTURRA</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Juegos de mesa</div>
+                                <div class="subtitulo"><div class="horario">10:00</div><div class="ubicacion">Plaza San Mart��n</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">XII.TORNEO DE BLOOD-BOWL juego de mesa , organizado por el colectivo Draconia</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque Infantil</div>
+                                <div class="subtitulo"><div class="horario">12 a 14</div><div class="ubicacion">Plaza San Mart��n</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil para los mas peque��os</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Entrega de premios</div>
+                                <div class="subtitulo"><div class="horario">12:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">HOMENAJE A LAS PERSONAS MAYORES Y ENTREGA DE PREMIOS de los diferentes concursos organizados por el Hogar de Jubilados/as</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concierto</div>
+                                <div class="subtitulo"><div class="horario">13:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">CONCIERTO a cargo de la Banda de la Escuela de M��sica Alboka</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Comida popular</div>
+                                <div class="subtitulo"><div class="horario">13:00</div><div class="ubicacion">Front��n Aritzmendi</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Comida popular organizada por el Hogar de Jubilados/as para sus socios/as</div></div>
+                        </article>                                              
+                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque Infantil</div>
+                                <div class="subtitulo"><div class="horario">17 a 20</div><div class="ubicacion">Plaza San Mart��n</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil para los mas peque��os</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Pelota a Mano</div>
+                                <div class="subtitulo"><div class="horario">18:00</div><div class="ubicacion">Front��n Aritzmendi</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">PARTIDOS DE PELOTA A MANO AFICIONADOS: Azpiri (Elorrio)- Bengoetxea (Eibar) contra Elezkano (Galdakao)- Aldape (Mallabia) y Arrieta (Hernani) ��� Gorrotxategi (Hernani) contra Santxo (Usurbil) ��� Irusta (Munitibar)</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                         <article>      
+                                <div class="titulo">Espectaculo de payasos</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">ESPECT��CULO DE PAYASOS a cargo de Patxin eta Potxin</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Pasacalles</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">none</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">PASACALLES de la Txaranga ���Irulitxa��� y PASACALLES a cargo de las txarangas locales</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Pasacalles</div>
+                                <div class="subtitulo"><div class="horario">20:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Larraindantza</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                                                                 <article>      
+                                <div class="titulo">Conciertos</div>
+                                <div class="subtitulo"><div class="horario">22:00</div><div class="ubicacion">Parque Marqu��s de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">FESTIVAL ROCK organizado por Beti Txarto Cartel:
+- Multa
+- Proyecto Simio
+- Censurados
+- Monkday
+- Insohmnio</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                                                                 <article>      
+                                <div class="titulo">ESPECT��CULO DE CALLE</div>
+                                <div class="subtitulo"><div class="horario">22:30</div><div class="ubicacion">Zona del centro</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Tendr�� lugar l ESPECT��CULO DE CALLE ���Entred��s���, a cargo del a cargo de la compa����a aragonesa Capic��a.</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                                                                 <article>      
+                                <div class="titulo">Verbena</div>
+                                <div class="subtitulo"><div class="horario">23:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">VERBENA con la orquesta Riojana Pasarela</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                                                                 
+                                                                 
+                                                                
+                                                                
+                    </div>
+                </content>
+            </div>
+                        
+                        <div class="panel" title="Dia 27" id="page15" data-footer="none">
+            <header>
+                <a id="menubadge" onclick='$.ui.toggleSideMenu()' class='menuButton' style="float:left !important"></a>
+                <h1>Domingo 27</h1>
+            </header>
+            
+            <content>
+                    <div align=center>
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Gran Chocolatada</div>
+                                <div class="subtitulo"><div class="horario">07:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">GRAN CHOCOLATADA, organizada por el Centro Cultural Castilla-Le��n</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Prueba de Barrus</div>
+                                <div class="subtitulo"><div class="horario">07:30</div><div class="ubicacion">Front��n de Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">La prueba de Barrus mas mitica a cargo de los gaupaseros</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Sokamuturra</div>
+                                <div class="subtitulo"><div class="horario">08:00</div><div class="ubicacion">Patio de Ongarai Eskola</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">��ltima SOKAMUTURRA de las fiestas</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concurso de Paellas</div>
+                                <div class="subtitulo"><div class="horario">10 a 11:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Reparto de arroz y comienzo del tradicional CONCURSO DE PAELLAS, categor��as infantil y adultos/as, organizado por la asociaci��n gastron��mica Lobiano y la asociaci��n de comerciantes y hosteleros/as.</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Reparto de Sardinas</div>
+                                <div class="subtitulo"><div class="horario">11:00</div><div class="ubicacion">Marqu��s de Valdespina</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">REPARTO DE SARDINAS para todo el mundo, Organizado por el Hogar de Jubilados/as</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque Infantil</div>
+                                <div class="subtitulo"><div class="horario">12 a 2</div><div class="ubicacion">Plaza San Mart��n</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil para los mas peque��os</div></div>
+                        </article>       
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Pasacalles</div>
+                                <div class="subtitulo"><div class="horario">12:30</div><div class="ubicacion">Por la calle</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">PASACALLES a cargo de la fanfarria Wesyk��</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Degustaci��n</div>
+                                <div class="subtitulo"><div class="horario">14:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">DEGUSTACI��N de los platos presentados a concurso, Continúando con la tradicional COMIDA POPULAR</div></div>
+                        </article>                                              
+                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Parque Infantil</div>
+                                <div class="subtitulo"><div class="horario">17 a 20</div><div class="ubicacion">Plaza San Mart��n</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Parque infantil para los mas peque��os</div></div>
+                        </article>        
+                                
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Romeria Popular</div>
+                                <div class="subtitulo"><div class="horario">18:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Tendr�� lugar la ROMER��A POPULAR, a cargo de la orquesta Lotxo Taldea</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                         <article>      
+                                <div class="titulo">Pasacalles</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Por la calle</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">nuevo PASACALLES a cargo de la fanfarria Wesyk��</div></div>
+                        </article>
+                                <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Concurso de Paellas</div>
+                                <div class="subtitulo"><div class="horario">19:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Fallo del concurso de paellas y entrega de premios</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Aurresku Popular</div>
+                                <div class="subtitulo"><div class="horario">19:15</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">Aurresku Popular y Larraindantza</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Romeria</div>
+                                <div class="subtitulo"><div class="horario">20:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont"> REANUDACI��N DE LA ROMER��A POPULAR, a cargo de Lotxo Taldea</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                         <article>      
+                                <div class="titulo">Conciertos</div>
+                                <div class="subtitulo"><div class="horario">22:00</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">CONCIERTO a cargo del grupo Vendetta</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Txaranga Irulitxa</div>
+                                <div class="subtitulo"><div class="horario">23:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">RECIBIMIENTO de la Txaranga ���Irulitxa���</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Fuegos Artificiales</div>
+                                <div class="subtitulo"><div class="horario">00:00</div><div class="ubicacion">Desde Ongarai</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">A cargo de Pirotecnia Astondoa. A Continúaci��n, pasacalles de vuelta a la plaza Cardenal Orbe para entonar el AGUR JAUNAK</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                        <article>       
+                                <div class="titulo">Fin de Fiestas</div>
+                                <div class="subtitulo"><div class="horario">00:30</div><div class="ubicacion">Plaza Cardenal Orbe</div></div>
+                                <div style="clear: both;"></div>
+                                <div class="contenido"><div class="txtcont">FIN DE FIESTAS con el grupo El Consorcio</div></div>
+                        </article> 
+                                                                 <div class="divisor"></div>
+                                                                 
+                                                                 
+                                                                
+                                                                
+                    </div>
+                </content>
+            </div>
+            
+            
+    </div>
+</div>
+</body>
+</html>    
